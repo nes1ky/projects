@@ -151,12 +151,18 @@ span {
   margin-left: 2em;
 }
 
-@media (max-width: 376px) {
+/*mobile*/
+@media (max-width: 576px) {
 
   main {
     width: 100%;
     border-radius: 0;
     margin: 0;
+    padding: 0;
+  }
+
+  .main-text {
+    margin: 0 10%;
   }
 
   img {
@@ -164,4 +170,6 @@ span {
     max-width: 100vw;
     border-radius: 0;
   }
+
+  div.attribution {display: none;}
 }
